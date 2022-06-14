@@ -17,7 +17,7 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'path'
-    mavenDirectory: '/usr/shared/mvn'
+    mavenDirectory: '/usr/share/maven'
     jdkDirectory: '/usr/lib/jvm'
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
