@@ -8,7 +8,7 @@ trigger:
 
 pool:
  name: default
- #vmImage: 'dockeragent:latest'
+ vmImage: 'dockeragent:latest'
 
 steps:
 - task: Maven@3
