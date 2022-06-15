@@ -55,6 +55,7 @@ stages:
     displayName: Deploy Linux Web App
     environment: $(environmentName)
     pool:
+      name: Default
       vmImage: $(vmImageName)
     strategy:
       runOnce:
